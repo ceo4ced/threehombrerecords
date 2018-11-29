@@ -1,0 +1,81 @@
+body {
+
+	font-family: Arial, Helvetica, sans-serif;
+	padding:.5em;
+	
+
+	
+}
+
+.container-fluid {
+	background-color: #140707;
+}
+
+
+
+#secondRow {
+	
+	
+	margin-top:2px;
+	height:200px;
+}
+
+#thirdRow {
+	margin-top:2px;	
+	height:200px;
+	justify-content: center;
+	
+}
+
+#fourthRow {
+	margin-top:2px;
+	height:200px;
+	
+
+
+}
+
+
+
+.leftUpper {
+	background-color: lightgray;
+
+
+	
+	
+}
+.middleUpper {
+	background-color: orange;
+	
+	
+}
+
+
+.rightUpper {
+	background-color: darkgray;
+	color:white;
+	
+}
+
+.leftMainContent {
+background-color: lightgray;
+}
+
+
+.rightMainContent {
+background-color: darkgray;
+}
+
+
+.mainContent {
+background-color: lightgray;
+}
+
+.belowFold {
+	background-color: grey;
+	
+}
+
+
+
+
