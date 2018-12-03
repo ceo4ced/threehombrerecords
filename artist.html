@@ -21,16 +21,21 @@
 <body>
 <div class="container-fluid">
             <div class="row" id="navRow"><div class="col-12">
-                    <nav class="navbar navbar-expand-sm navbar-light">
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-menu" aria-controls="nav-menu" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button> 
-                        <div class="collapse navbar-collapse" id="nav-menu">
-                            <ul class="nav nav-pills">
-                                <div role="presentation"><a class="nav-link" href="index.html"> Home</a></div>
-                                <li role="presentation"><a class="nav-link" href="artist.html"> Artist</a></li>
-                                <li role="presentation"><a class="nav-link" href="genre.html"> Genre</a></li>
-                                <li role="presentation"><a class="nav-link" href="about.html"> About</a></li>
+                    <nav class="navbar">
+                        <div id="nav-menu">
+                            <ul class="nav">
+                                <li><a class="nav-link" href="index.html"> Home</a></li>
+                                <div class="dropDown">
+                                <li><a class="nav-link" href="#"> Artist</a>
+                                    <ul>
+                                        <div class="dropDown-content">
+                                            <li><a href="artist/suzzyb.html">SuzzyB</a></li>
+                                            <li><a href="artist/oceill.html">Oceill</a></li>
+                                        </div>
+                                    </ul>
+                                </li></div>
+                                <li ><a class="nav-link" href="genre.html"> Genre</a></li>
+                                <li ><a class="nav-link" href="about.html"> About</a></li>
                             </ul>
                         </div>
                     </nav>
