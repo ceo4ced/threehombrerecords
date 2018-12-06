@@ -8,7 +8,7 @@ body {
 }
 
 .container-fluid {
-	background-color: #140707;
+	background-color: #E12D28;
 }
 
 
@@ -18,7 +18,23 @@ body {
 	
 	margin-top:2px;
 	min-height:200px;
-	height:auto;
+	height:100%;
+}
+
+#rightTop {
+	display:block;
+	margin:auto;
+	max-width: 180px;
+
+}
+
+
+#responsive {
+	display:block;
+	margin:auto;
+	    width:200px;
+        height:200px;
+  
 }
 
 #thirdRow {
@@ -40,42 +56,70 @@ body {
 
 
 .leftUpper {
-	background-color: lightgray;
-
+	background-color: white;
+	min-height:200px;
 
 	
 	
 }
 .middleUpper {
-	background-color: orange;
+	display: block;
+	margin:auto;
+	background-color: #F7E2E1;
+	min-height:200px;
 	
 	
 }
 
 
+.midRightUpper {
+	display:block;
+	margin:auto;
+	background-color: #F7E2E1;
+	/*color:white;*/
+	min-height:200px;
+	
+}
+
 .rightUpper {
-	background-color: darkgray;
-	color:white;
+
+	display:block;
+	margin:auto;
+	background-color: #F7E2E1;
+	/*color:white;*/
+	min-height:200px;
 	
 }
 
 .leftMainContent {
 background-color: lightgray;
+min-height:400px;
 }
 
 
 .rightMainContent {
-background-color: darkgray;
+background-color: #F7E2E1;
+min-height:400px;
 }
 
 
 .mainContent {
-background-color: lightgray;
+background-color: #F7E2E1;
+min-height:400px;
 
 }
 
+.pic {
+	display:block;
+	margin:auto;
+	max-width: 800px;
+	width:100%;
+	height: auto;
+}
+
 .belowFold {
-	background-color: grey;
+	background-color: #F7E2E1;
+	min-height:200px;
 	
 }
 

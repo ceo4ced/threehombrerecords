@@ -21,7 +21,7 @@
 }
 
 #navRow a:hover{
-	color:#1FB129;
+	color:#140707;
 
 }
 
@@ -56,7 +56,7 @@
 
 
 .dropDown-content a:hover { 
-	color:#1FB129;
+	color:#140707;
 
 }
 
@@ -69,17 +69,17 @@
 #footerNavRow {
 	margin-top:2px;
 	display: block;
-	background-color: #E12D28;
+	background-color: #140707;
 	color:white;
 	
 }
 
-#footerMenu, a {
+#footerMenu a {
 color:#F7E2E1;
 }
 
-#footerMenu, a:hover {
-color:#1FB129;
+#footerMenu a:hover {
+color:#E12D28;
 }
 
 @media only screen and (max-width: 768px) {
