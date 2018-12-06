@@ -1,0 +1,226 @@
+body {
+
+	font-family: Arial, Helvetica, sans-serif;
+	padding:.5em;
+	
+
+	
+}
+
+.container-fluid {
+	background-color: #E12D28;
+}
+
+
+
+#secondRow {
+
+	
+	background-color: white;
+	margin-top:2px;
+	
+	height:100%;
+}
+
+#rightTop {
+	display:block;
+	margin:auto;
+	max-width: 180px;
+	box-shadow: 5px 5px #888888;
+
+}
+
+
+#responsive {
+	display:block;
+	margin:auto;
+	    width:200px;
+        height:200px;
+  
+}
+
+#thirdRow {
+	margin-top:2px;	
+	min-height:200px;
+	height:100%;
+	justify-content: center;
+	
+}
+
+#fourthRow {
+	margin-top:2px;
+	height:200px;
+	
+
+
+}
+
+
+
+.leftUpper {
+	background-color: white;
+	
+	padding-left: 0;
+
+	
+	
+}
+.middleUpper {
+	display: block;
+	margin:auto;
+	background-color: #F7E2E1;
+	min-height:200px;
+
+	
+	
+}
+
+
+.midRightUpper {
+	display:block;
+	margin:auto;
+	background-color: #F7E2E1;
+	/*color:white;*/
+	min-height:200px;
+	
+}
+.midUpper {
+	display:block;
+	margin:auto;
+	background-color: white;
+	text-align: center;
+}
+
+.rightUpper {
+
+	display:block;
+	margin:auto;
+	background-color: white;
+	text-align: center;
+	/*color:white;*/
+	
+	
+}
+
+.rightUpperAbout {
+
+	display:block;
+	margin:auto;
+	background-color: #F7E2E1;
+	text-align: center;
+	box-shadow: 5px 5px #888888;
+	
+	
+}
+
+.rightUpperFront {
+
+	display:block;
+	margin:auto;
+	background-color: #F7E2E1;
+	text-align: center;
+	
+	
+	
+}
+
+.rightUpperGenre {
+	display:block;
+	margin:auto;
+	background-color: #F7E2E1;
+	text-align: center;
+	height: 100%;
+	box-shadow: 5px 5px #888888;
+}
+
+.leftMainContent {
+background-color: white;
+min-height:400px;
+}
+
+
+.rightMainContent {
+background-color: #F7E2E1;
+min-height:400px;
+}
+
+
+.mainContent {
+background-color: #F7E2E1;
+min-height:400px;
+
+}
+
+.mainContentGenre {
+background-color: white;
+min-height:400px;
+
+}
+.mainContentAbout {
+	display: block;
+background-color: white;
+min-height:400px;
+
+
+}
+.pic {
+	display:block;
+	margin:auto;
+	max-width: 800px;
+	width:100%;
+	height: auto;
+}
+
+.belowFold {
+	background-color: #F7E2E1;
+	min-height:200px;
+	
+}
+
+
+.audio {
+	/*background-size: 50% 50%;*/
+	border:none;
+	height:60px;
+	width:200px;
+	/*background-color: #F7E2E1;*/
+}
+
+
+#mainH1 {
+	display:block;
+	/*max-height: 100px;*/
+	margin:auto;
+	text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+   
+
+#secondRow {
+	
+
+	height:100%;
+	min-height: 200px;
+}
+
+#thirdRow {
+	
+	height:100%;
+	min-height: 200px;
+	
+	
+}
+
+#fourthRow {
+	
+	height:100%;
+	min-height: 200px;
+	
+
+
+}
+
+
+   }
+
